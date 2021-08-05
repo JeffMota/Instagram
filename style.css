@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+body a{
+    color: rgb(0, 162, 255);
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box_principal{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram_phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram_phone img{
+    height: 50rem;
+}
+
+.login_screen{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 37rem;
+}
+
+.confirm_conta{
+    display: flex;
+    border: solid 1px rgb(212, 212, 212);
+    width: 85%;
+    min-height: 20rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.trocar_conta{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px rgb(212, 212, 212);
+    width: 85%;
+    min-height: 80px;
+    color: rgb(136, 136, 136);
+}
+
+.profile_photo img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.continue_botao{
+    text-align: center;
+    width: 20rem;
+    background-color: rgb(0, 162, 255);
+    border: solid 5px rgb(0, 162, 255);
+    border-radius: 5px;
+    color: rgb(243, 243, 243);
+}
+
+.get_the_app{
+    display: flex;
+    text-align: center;
+    width: 85%;
+    flex-direction: column;
+    
+}
+
+.img_botao{
+    width: 40%;
+    margin: 10px 15px;
+}
+
+@media(max-width: 1024px){
+    .continue_botao{
+        max-width: 90%;
+    }
+}
+
+@media(max-width:768px){
+    .instagram_phone{
+        display: none;
+    }
+    .login_screen{
+        width: 100%;
+    }
+}
+
+@media(max-width: 450px){
+    .box_principal{
+        width: 90%;
+    }
+}
